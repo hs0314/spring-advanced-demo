@@ -1,0 +1,16 @@
+package heesu.me.springadvanceddemo.proxy;
+
+import lombok.RequiredArgsConstructor;
+import org.springframework.stereotype.Service;
+
+@Service
+@RequiredArgsConstructor
+public class OrderServiceImpl implements OrderService {
+
+    private final OrderRepository orderRepository;
+
+    @Override
+    public void orderItem(String itemId) {
+        orderRepository.save(itemId);
+    }
+}
