@@ -1,9 +1,9 @@
-package heesu.me.springadvanceddemo.proxy;
+package heesu.me.springadvanceddemo.proxy.pureproxy.proxy;
 
 
-import heesu.me.springadvanceddemo.proxy.code.CacheProxy;
-import heesu.me.springadvanceddemo.proxy.code.Client;
-import heesu.me.springadvanceddemo.proxy.code.RealSubject;
+import heesu.me.springadvanceddemo.proxy.pureproxy.proxy.code.CacheProxy;
+import heesu.me.springadvanceddemo.proxy.pureproxy.proxy.code.Client;
+import heesu.me.springadvanceddemo.proxy.pureproxy.proxy.code.RealSubject;
 import org.junit.jupiter.api.Test;
 
 public class ProxyPatternTest {

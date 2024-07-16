@@ -1,4 +1,4 @@
-package heesu.me.springadvanceddemo.decorator.code;
+package heesu.me.springadvanceddemo.proxy.pureproxy.decorator.code;
 
 import lombok.extern.slf4j.Slf4j;
 

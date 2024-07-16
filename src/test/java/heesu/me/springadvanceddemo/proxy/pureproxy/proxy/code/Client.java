@@ -1,4 +1,4 @@
-package heesu.me.springadvanceddemo.proxy.code;
+package heesu.me.springadvanceddemo.proxy.pureproxy.proxy.code;
 
 public class Client {
 

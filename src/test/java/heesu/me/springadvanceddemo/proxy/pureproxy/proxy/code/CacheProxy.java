@@ -1,6 +1,5 @@
-package heesu.me.springadvanceddemo.proxy.code;
+package heesu.me.springadvanceddemo.proxy.pureproxy.proxy.code;
 
-import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 
 @Slf4j

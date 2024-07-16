@@ -1,7 +1,6 @@
-package heesu.me.springadvanceddemo.decorator;
+package heesu.me.springadvanceddemo.proxy.pureproxy.decorator;
 
-
-import heesu.me.springadvanceddemo.decorator.code.*;
+import heesu.me.springadvanceddemo.proxy.pureproxy.decorator.code.*;
 import org.junit.jupiter.api.Test;
 
 public class DecoratorPatternTest {
