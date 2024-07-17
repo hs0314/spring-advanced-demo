@@ -18,6 +18,6 @@ public class OrderController {
 
     @GetMapping("/no-log")
     public String noLog() {
-        return null;
+        return "ok";
     }
 }
