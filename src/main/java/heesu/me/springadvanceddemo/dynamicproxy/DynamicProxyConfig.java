@@ -9,13 +9,14 @@ import org.springframework.context.annotation.Configuration;
 
 import java.lang.reflect.Proxy;
 
-@Configuration
+// ProxyFactoryConfig에서 orderService 빈 등록이 겹치므로 필요에 따라서 하나의 config만 활용
+// @Configuration
 public class DynamicProxyConfig {
 
     private static final String[] PATTERNS = {"request*", "order*", "save*"};
 
     // JDK 동적 프록시를 활요하는 방법은 인터페이스가 필수적이고 구체클래스만 있는 경우에는 CGLIB을 활용해야한다
-    @Bean
+    //@Bean
     public OrderService orderService(LogTrace logTrace, OrderRepository orderRepository){
         OrderServiceImpl orderService = new OrderServiceImpl(orderRepository);
 

@@ -10,7 +10,7 @@ import org.springframework.context.annotation.Configuration;
 /**
  * 인터페이스 기반 프록시
  */
-// DynamicProxyConfig에서 drderService 빈 등록이 겹치므로 필요에 따라서 하나의 config만 활용
+// DynamicProxyConfig에서 orderService 빈 등록이 겹치므로 필요에 따라서 하나의 config만 활용
 //@Configuration
 public class InterfaceProxyConfig {
 
