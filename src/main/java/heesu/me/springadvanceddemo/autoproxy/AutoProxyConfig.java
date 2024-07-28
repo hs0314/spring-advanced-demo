@@ -12,7 +12,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 @Slf4j
-@Configuration
+//@Configuration
 public class AutoProxyConfig {
 
     private static final String[] PATTERNS = {"request*", "order*", "save*"};
@@ -36,7 +36,7 @@ public class AutoProxyConfig {
     }
 
     // AspectJ exp를 사용할 수 있는 정밀한 pointcut 적용
-    @Bean
+    //@Bean
     public Advisor advisor2(LogTrace logTrace) {
 
         AspectJExpressionPointcut pointcut = new AspectJExpressionPointcut();
