@@ -11,12 +11,12 @@ import org.springframework.context.annotation.Configuration;
 /**
  * 구체 클래스 기반 프록시
  */
-@Configuration
+//@Configuration
 public class concreteProxyConfig {
 
     // LogTrace 스프링 컨테이너에서 빈 주입을 받고 클라이언트에서는 OrderRepository객체를 주입 받을때
     // 로직클래스를 상속받은 프록시객체(OrderRepositoryConcreteProxy)를 DI 받도록 한다
-    @Bean
+    //@Bean
     public OrderRepository orderRepository(LogTrace logTrace){
 
         OrderRepository orderRepository = new OrderRepository();
