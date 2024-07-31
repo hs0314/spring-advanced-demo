@@ -27,19 +27,6 @@ public class AopTest {
     @Autowired
     TestRepository testRepository;
 
-    @Autowired
-    private ApplicationContext applicationContext;
-
-    @Test
-    void printAllBeans() {
-        String[] allBeanNames = applicationContext.getBeanDefinitionNames();
-        log.info("Total number of beans: {}", allBeanNames.length);
-        for(String beanName : allBeanNames) {
-            log.info("Bean name: {}", beanName);
-        }
-    }
-
-
     @Test
     void aopInfo() {
         log.info("isAopProxy, testService:{}", AopUtils.isAopProxy(testService));
